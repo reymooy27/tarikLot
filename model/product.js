@@ -5,6 +5,10 @@ const product = new mongoose.Schema({
   lotId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Lot'
+  },
+  tarikLotID: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'TarikLot'
   }
 })
 

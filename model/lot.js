@@ -7,6 +7,10 @@ const lot = new mongoose.Schema({
   productId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Product'
+  },
+  tarikLotID: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'TarikLot'
   }
 })
 
